@@ -400,8 +400,6 @@
      */
     struct bme280_t {
     	struct bme280_calibration_param_t cal_param;
-    	/**< calibration parameters*/
-    	u8 chip_id;/**< chip id of the sensor*/
     };
     
     //single  measurement

@@ -13,7 +13,7 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Weather_Box\Weather_Box\Generated_Source\PSoC4\p_lamp">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Weather_Box">
 <ExpandedNodeIds>
 <v>Weather_Box</v>
 <v>Weather_Box\Weather_Box</v>
@@ -21,12 +21,27 @@
 <v>Weather_Box\Weather_Box\Weather_Box.cydwr</v>
 <v>Weather_Box\Weather_Box\Header Files</v>
 <v>Weather_Box\Weather_Box\Header Files\Library</v>
+<v>Weather_Box\Weather_Box\Header Files\Library\device</v>
+<v>Weather_Box\Weather_Box\Header Files\Library\device\bme280</v>
 <v>Weather_Box\Weather_Box\Header Files\Library\device\bme280\bme280.h</v>
+<v>Weather_Box\Weather_Box\Header Files\Library\device\low power</v>
+<v>Weather_Box\Weather_Box\Header Files\Library\device\low power\low_power.h</v>
+<v>Weather_Box\Weather_Box\Header Files\Library\device\rtc</v>
+<v>Weather_Box\Weather_Box\Header Files\Library\device\rtc\rtc.h</v>
+<v>Weather_Box\Weather_Box\Header Files\Library\log trace</v>
+<v>Weather_Box\Weather_Box\Header Files\Library\log trace\log_trace.h</v>
 <v>Weather_Box\Weather_Box\Header Files\cyapicallbacks.h</v>
 <v>Weather_Box\Weather_Box\Source Files</v>
+<v>Weather_Box\Weather_Box\Source Files\Library</v>
 <v>Weather_Box\Weather_Box\Source Files\Library\device</v>
 <v>Weather_Box\Weather_Box\Source Files\Library\device\bme280</v>
 <v>Weather_Box\Weather_Box\Source Files\Library\device\bme280\bme280.c</v>
+<v>Weather_Box\Weather_Box\Source Files\Library\device\low power</v>
+<v>Weather_Box\Weather_Box\Source Files\Library\device\low power\low_power.c</v>
+<v>Weather_Box\Weather_Box\Source Files\Library\device\rtc</v>
+<v>Weather_Box\Weather_Box\Source Files\Library\device\rtc\rtc.c</v>
+<v>Weather_Box\Weather_Box\Source Files\log trace</v>
+<v>Weather_Box\Weather_Box\Source Files\log trace\log_trace.c</v>
 <v>Weather_Box\Weather_Box\Source Files\main.c</v>
 <v>Weather_Box\Weather_Box\Generated_Source</v>
 <v>Weather_Box\Weather_Box\Generated_Source\PSoC4</v>
@@ -54,6 +69,28 @@
 <v>Weather_Box\Weather_Box\Generated_Source\PSoC4\cy_boot\cyutils.c</v>
 <v>Weather_Box\Weather_Box\Generated_Source\PSoC4\cy_lfclk\CyLFClk.c</v>
 <v>Weather_Box\Weather_Box\Generated_Source\PSoC4\cy_lfclk\CyLFClk.h</v>
+<v>Weather_Box\Weather_Box\Generated_Source\PSoC4\p_debug</v>
+<v>Weather_Box\Weather_Box\Generated_Source\PSoC4\p_debug\p_debug.c</v>
+<v>Weather_Box\Weather_Box\Generated_Source\PSoC4\p_debug\p_debug.h</v>
+<v>Weather_Box\Weather_Box\Generated_Source\PSoC4\p_debug\p_debug_BOOT.c</v>
+<v>Weather_Box\Weather_Box\Generated_Source\PSoC4\p_debug\p_debug_BOOT.h</v>
+<v>Weather_Box\Weather_Box\Generated_Source\PSoC4\p_debug\p_debug_PINS.h</v>
+<v>Weather_Box\Weather_Box\Generated_Source\PSoC4\p_debug\p_debug_PM.c</v>
+<v>Weather_Box\Weather_Box\Generated_Source\PSoC4\p_debug\p_debug_PVT.h</v>
+<v>Weather_Box\Weather_Box\Generated_Source\PSoC4\p_debug\p_debug_SPI_UART.c</v>
+<v>Weather_Box\Weather_Box\Generated_Source\PSoC4\p_debug\p_debug_SPI_UART.h</v>
+<v>Weather_Box\Weather_Box\Generated_Source\PSoC4\p_debug\p_debug_SPI_UART_INT.c</v>
+<v>Weather_Box\Weather_Box\Generated_Source\PSoC4\p_debug\p_debug_SPI_UART_PVT.h</v>
+<v>Weather_Box\Weather_Box\Generated_Source\PSoC4\p_debug\p_debug_UART.c</v>
+<v>Weather_Box\Weather_Box\Generated_Source\PSoC4\p_debug\p_debug_UART_BOOT.c</v>
+<v>Weather_Box\Weather_Box\Generated_Source\PSoC4\p_debug_SCBCLK</v>
+<v>Weather_Box\Weather_Box\Generated_Source\PSoC4\p_debug_SCBCLK\p_debug_SCBCLK.c</v>
+<v>Weather_Box\Weather_Box\Generated_Source\PSoC4\p_debug_SCBCLK\p_debug_SCBCLK.h</v>
+<v>Weather_Box\Weather_Box\Generated_Source\PSoC4\p_debug_tx</v>
+<v>Weather_Box\Weather_Box\Generated_Source\PSoC4\p_debug_tx\p_debug_tx.c</v>
+<v>Weather_Box\Weather_Box\Generated_Source\PSoC4\p_debug_tx\p_debug_tx.h</v>
+<v>Weather_Box\Weather_Box\Generated_Source\PSoC4\p_debug_tx\p_debug_tx_aliases.h</v>
+<v>Weather_Box\Weather_Box\Generated_Source\PSoC4\p_debug_tx\p_debug_tx_PM.c</v>
 <v>Weather_Box\Weather_Box\Generated_Source\PSoC4\p_iic_bus\p_iic_bus.c</v>
 <v>Weather_Box\Weather_Box\Generated_Source\PSoC4\p_iic_bus\p_iic_bus.h</v>
 <v>Weather_Box\Weather_Box\Generated_Source\PSoC4\p_iic_bus\p_iic_bus_BOOT.c</v>
@@ -108,29 +145,29 @@
 <v>Weather_Box\Weather_Box\Header Files</v>
 <v>Weather_Box\Weather_Box\Header Files\Library</v>
 <v>Weather_Box\Weather_Box\Header Files\Library\device</v>
+<v>Weather_Box\Weather_Box\Header Files\Library\device\bme280</v>
+<v>Weather_Box\Weather_Box\Header Files\Library\device\bme280\bme280.h</v>
+<v>Weather_Box\Weather_Box\Header Files\Library\device\low power</v>
+<v>Weather_Box\Weather_Box\Header Files\Library\device\low power\low_power.h</v>
+<v>Weather_Box\Weather_Box\Header Files\Library\device\rtc</v>
+<v>Weather_Box\Weather_Box\Header Files\Library\device\rtc\rtc.h</v>
+<v>Weather_Box\Weather_Box\Header Files\Library\log trace</v>
+<v>Weather_Box\Weather_Box\Header Files\Library\log trace\log_trace.h</v>
 <v>Weather_Box\Weather_Box\Header Files\cyapicallbacks.h</v>
 <v>Weather_Box\Weather_Box\Source Files</v>
 <v>Weather_Box\Weather_Box\Source Files\Library</v>
+<v>Weather_Box\Weather_Box\Source Files\Library\device</v>
+<v>Weather_Box\Weather_Box\Source Files\Library\device\bme280</v>
+<v>Weather_Box\Weather_Box\Source Files\Library\device\bme280\bme280.c</v>
+<v>Weather_Box\Weather_Box\Source Files\Library\device\low power</v>
+<v>Weather_Box\Weather_Box\Source Files\Library\device\low power\low_power.c</v>
+<v>Weather_Box\Weather_Box\Source Files\Library\device\rtc</v>
+<v>Weather_Box\Weather_Box\Source Files\Library\device\rtc\rtc.c</v>
+<v>Weather_Box\Weather_Box\Source Files\log trace</v>
+<v>Weather_Box\Weather_Box\Source Files\log trace\log_trace.c</v>
 <v>Weather_Box\Weather_Box\Source Files\main.c</v>
 <v>Weather_Box\Weather_Box\Generated_Source</v>
 <v>Weather_Box\Weather_Box\Generated_Source\PSoC4</v>
-<v>Weather_Box\Weather_Box\Generated_Source\PSoC4\cy_boot</v>
-<v>Weather_Box\Weather_Box\Generated_Source\PSoC4\cy_lfclk</v>
-<v>Weather_Box\Weather_Box\Generated_Source\PSoC4\p_iic_bus</v>
-<v>Weather_Box\Weather_Box\Generated_Source\PSoC4\p_iic_bus_SCB_IRQ</v>
-<v>Weather_Box\Weather_Box\Generated_Source\PSoC4\p_iic_bus_SCBCLK</v>
-<v>Weather_Box\Weather_Box\Generated_Source\PSoC4\p_iic_bus_scl</v>
-<v>Weather_Box\Weather_Box\Generated_Source\PSoC4\p_iic_bus_sda</v>
-<v>Weather_Box\Weather_Box\Generated_Source\PSoC4\p_lamp</v>
-<v>Weather_Box\Weather_Box\Generated_Source\PSoC4\cycodeshareexport.ld</v>
-<v>Weather_Box\Weather_Box\Generated_Source\PSoC4\cycodeshareimport.ld</v>
-<v>Weather_Box\Weather_Box\Generated_Source\PSoC4\cycodeshareimport.scat</v>
-<v>Weather_Box\Weather_Box\Generated_Source\PSoC4\cydevice_trm.h</v>
-<v>Weather_Box\Weather_Box\Generated_Source\PSoC4\cydevicegnu_trm.inc</v>
-<v>Weather_Box\Weather_Box\Generated_Source\PSoC4\cydeviceiar_trm.inc</v>
-<v>Weather_Box\Weather_Box\Generated_Source\PSoC4\cydevicerv_trm.inc</v>
-<v>Weather_Box\Weather_Box\Generated_Source\PSoC4\cydisabledsheets.h</v>
-<v>Weather_Box\Weather_Box\Generated_Source\PSoC4\cyfitter.h</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
@@ -141,7 +178,7 @@
 <v>Weather_Box</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Weather_Box">
 <ExpandedNodeIds>
 <v>Weather_Box</v>
 <v>Weather_Box\Weather_Box</v>
@@ -159,7 +196,19 @@
 <v>Weather_Box\Weather_Box\CortexM0\ARM_GCC_493\Debug\Listing Files\cymetadata.lst</v>
 <v>Weather_Box\Weather_Box\CortexM0\ARM_GCC_493\Debug\Listing Files\cyPm.lst</v>
 <v>Weather_Box\Weather_Box\CortexM0\ARM_GCC_493\Debug\Listing Files\cyutils.lst</v>
+<v>Weather_Box\Weather_Box\CortexM0\ARM_GCC_493\Debug\Listing Files\log_trace.lst</v>
+<v>Weather_Box\Weather_Box\CortexM0\ARM_GCC_493\Debug\Listing Files\low_power.lst</v>
 <v>Weather_Box\Weather_Box\CortexM0\ARM_GCC_493\Debug\Listing Files\main.lst</v>
+<v>Weather_Box\Weather_Box\CortexM0\ARM_GCC_493\Debug\Listing Files\p_debug.lst</v>
+<v>Weather_Box\Weather_Box\CortexM0\ARM_GCC_493\Debug\Listing Files\p_debug_BOOT.lst</v>
+<v>Weather_Box\Weather_Box\CortexM0\ARM_GCC_493\Debug\Listing Files\p_debug_PM.lst</v>
+<v>Weather_Box\Weather_Box\CortexM0\ARM_GCC_493\Debug\Listing Files\p_debug_SCBCLK.lst</v>
+<v>Weather_Box\Weather_Box\CortexM0\ARM_GCC_493\Debug\Listing Files\p_debug_SPI_UART.lst</v>
+<v>Weather_Box\Weather_Box\CortexM0\ARM_GCC_493\Debug\Listing Files\p_debug_SPI_UART_INT.lst</v>
+<v>Weather_Box\Weather_Box\CortexM0\ARM_GCC_493\Debug\Listing Files\p_debug_tx.lst</v>
+<v>Weather_Box\Weather_Box\CortexM0\ARM_GCC_493\Debug\Listing Files\p_debug_tx_PM.lst</v>
+<v>Weather_Box\Weather_Box\CortexM0\ARM_GCC_493\Debug\Listing Files\p_debug_UART.lst</v>
+<v>Weather_Box\Weather_Box\CortexM0\ARM_GCC_493\Debug\Listing Files\p_debug_UART_BOOT.lst</v>
 <v>Weather_Box\Weather_Box\CortexM0\ARM_GCC_493\Debug\Listing Files\p_iic_bus.lst</v>
 <v>Weather_Box\Weather_Box\CortexM0\ARM_GCC_493\Debug\Listing Files\p_iic_bus_BOOT.lst</v>
 <v>Weather_Box\Weather_Box\CortexM0\ARM_GCC_493\Debug\Listing Files\p_iic_bus_I2C.lst</v>
@@ -175,6 +224,7 @@
 <v>Weather_Box\Weather_Box\CortexM0\ARM_GCC_493\Debug\Listing Files\p_iic_bus_sda_PM.lst</v>
 <v>Weather_Box\Weather_Box\CortexM0\ARM_GCC_493\Debug\Listing Files\p_lamp.lst</v>
 <v>Weather_Box\Weather_Box\CortexM0\ARM_GCC_493\Debug\Listing Files\p_lamp_PM.lst</v>
+<v>Weather_Box\Weather_Box\CortexM0\ARM_GCC_493\Debug\Listing Files\rtc.lst</v>
 <v>Weather_Box\Weather_Box\CortexM0\ARM_GCC_493\Debug\Weather_Box.elf</v>
 <v>Weather_Box\Weather_Box\CortexM0\ARM_GCC_493\Debug\Weather_Box.hex</v>
 <v>Weather_Box\Weather_Box\CortexM0\ARM_GCC_493\Debug\Weather_Box.map</v>
@@ -199,20 +249,20 @@
 <v>Weather_Box\Weather_Box\CortexM0\ARM_GCC_493\Debug\Listing Files\cymetadata.lst</v>
 <v>Weather_Box\Weather_Box\CortexM0\ARM_GCC_493\Debug\Listing Files\cyPm.lst</v>
 <v>Weather_Box\Weather_Box\CortexM0\ARM_GCC_493\Debug\Listing Files\cyutils.lst</v>
+<v>Weather_Box\Weather_Box\CortexM0\ARM_GCC_493\Debug\Listing Files\log_trace.lst</v>
+<v>Weather_Box\Weather_Box\CortexM0\ARM_GCC_493\Debug\Listing Files\low_power.lst</v>
 <v>Weather_Box\Weather_Box\CortexM0\ARM_GCC_493\Debug\Listing Files\main.lst</v>
+<v>Weather_Box\Weather_Box\CortexM0\ARM_GCC_493\Debug\Listing Files\p_debug.lst</v>
+<v>Weather_Box\Weather_Box\CortexM0\ARM_GCC_493\Debug\Listing Files\p_debug_BOOT.lst</v>
+<v>Weather_Box\Weather_Box\CortexM0\ARM_GCC_493\Debug\Listing Files\p_debug_PM.lst</v>
+<v>Weather_Box\Weather_Box\CortexM0\ARM_GCC_493\Debug\Listing Files\p_debug_SCBCLK.lst</v>
+<v>Weather_Box\Weather_Box\CortexM0\ARM_GCC_493\Debug\Listing Files\p_debug_SPI_UART.lst</v>
+<v>Weather_Box\Weather_Box\CortexM0\ARM_GCC_493\Debug\Listing Files\p_debug_SPI_UART_INT.lst</v>
+<v>Weather_Box\Weather_Box\CortexM0\ARM_GCC_493\Debug\Listing Files\p_debug_tx.lst</v>
+<v>Weather_Box\Weather_Box\CortexM0\ARM_GCC_493\Debug\Listing Files\p_debug_tx_PM.lst</v>
+<v>Weather_Box\Weather_Box\CortexM0\ARM_GCC_493\Debug\Listing Files\p_debug_UART.lst</v>
+<v>Weather_Box\Weather_Box\CortexM0\ARM_GCC_493\Debug\Listing Files\p_debug_UART_BOOT.lst</v>
 <v>Weather_Box\Weather_Box\CortexM0\ARM_GCC_493\Debug\Listing Files\p_iic_bus.lst</v>
-<v>Weather_Box\Weather_Box\CortexM0\ARM_GCC_493\Debug\Listing Files\p_iic_bus_BOOT.lst</v>
-<v>Weather_Box\Weather_Box\CortexM0\ARM_GCC_493\Debug\Listing Files\p_iic_bus_I2C.lst</v>
-<v>Weather_Box\Weather_Box\CortexM0\ARM_GCC_493\Debug\Listing Files\p_iic_bus_I2C_BOOT.lst</v>
-<v>Weather_Box\Weather_Box\CortexM0\ARM_GCC_493\Debug\Listing Files\p_iic_bus_I2C_INT.lst</v>
-<v>Weather_Box\Weather_Box\CortexM0\ARM_GCC_493\Debug\Listing Files\p_iic_bus_I2C_MASTER.lst</v>
-<v>Weather_Box\Weather_Box\CortexM0\ARM_GCC_493\Debug\Listing Files\p_iic_bus_PM.lst</v>
-<v>Weather_Box\Weather_Box\CortexM0\ARM_GCC_493\Debug\Listing Files\p_iic_bus_SCB_IRQ.lst</v>
-<v>Weather_Box\Weather_Box\CortexM0\ARM_GCC_493\Debug\Listing Files\p_iic_bus_SCBCLK.lst</v>
-<v>Weather_Box\Weather_Box\CortexM0\ARM_GCC_493\Debug\Listing Files\p_iic_bus_scl.lst</v>
-<v>Weather_Box\Weather_Box\CortexM0\ARM_GCC_493\Debug\Listing Files\p_iic_bus_scl_PM.lst</v>
-<v>Weather_Box\Weather_Box\CortexM0\ARM_GCC_493\Debug\Listing Files\p_iic_bus_sda.lst</v>
-<v>Weather_Box\Weather_Box\CortexM0\ARM_GCC_493\Debug\Listing Files\p_iic_bus_sda_PM.lst</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
@@ -220,7 +270,7 @@
 <v>Datasheet</v>
 </TreeKeysV2>
 <TreeStatesV2>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Weather_Box\Weather_Box">
 <ExpandedNodeIds>
 <v>Weather_Box</v>
 <v>Weather_Box\Weather_Box</v>
@@ -233,7 +283,8 @@
 <v>Weather_Box\Weather_Box\Gnd_v1_0.pdf</v>
 <v>Weather_Box\Weather_Box\LED_v1_0.pdf</v>
 <v>Weather_Box\Weather_Box\Resistor_v1_0.pdf</v>
-<v>Weather_Box\Weather_Box\SCB_P4_v3_20.pdf</v>
+<v>Weather_Box\Weather_Box\SCB_P4_v3_20</v>
+<v>Weather_Box\Weather_Box\SCB_P4_v3_20\SCB_P4_v3_20.pdf</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
 <v>Weather_Box</v>
@@ -247,7 +298,8 @@
 <v>Weather_Box\Weather_Box\Gnd_v1_0.pdf</v>
 <v>Weather_Box\Weather_Box\LED_v1_0.pdf</v>
 <v>Weather_Box\Weather_Box\Resistor_v1_0.pdf</v>
-<v>Weather_Box\Weather_Box\SCB_P4_v3_20.pdf</v>
+<v>Weather_Box\Weather_Box\SCB_P4_v3_20</v>
+<v>Weather_Box\Weather_Box\SCB_P4_v3_20\SCB_P4_v3_20.pdf</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStatesV2>
@@ -262,11 +314,13 @@
 </CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
 <Unloaded />
 <OpenDocs>
-<name v=".\Weather_Box.cydsn\main.c" />
+<name v=".\Weather_Box.cydsn\library\device\bme280\bme280.c" />
 <name v=".\Weather_Box.cydsn\TopDesign\TopDesign.cysch" />
+<name v=".\Weather_Box.cydsn\Weather_Box.cydwr" />
+<name v=".\Weather_Box.cydsn\main.c" />
 <name v=".\Weather_Box.cydsn\Generated_Source\PSoC4\CyBootAsmGnu.s" />
 </OpenDocs>
-<config v="" />
+<config v="Debug" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
 </CyXmlSerializer>

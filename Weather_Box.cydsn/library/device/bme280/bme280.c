@@ -2,7 +2,7 @@
 #include <string.h>
 #include "bme280.h"
 
-#define BME280_ADDRESS                          0x7E
+#define BME280_ADDRESS                          0x76
 #define Macro_Is_Fail()                         \
 do{                                             \
     if(res != p_iic_bus_I2C_MSTR_NO_ERROR){     \
@@ -14,6 +14,9 @@ do{                                             \
 
 static 
 struct bme280_t bme280_cluster;
+
+static
+u8 bme280_chip_id = 0x00;
 
 static
 s8 bme280_bus_write(u8 reg, u8 data[], u8 count)
@@ -67,9 +70,9 @@ s8 bme280_bus_read_register(u8 reg, u8 data[], u8 count)
         while(count){
             count  -= 1;
             if(count == 0){
-                r_byte  = p_iic_bus_I2CMasterWriteByte(p_iic_bus_I2C_NAK_DATA);
+                r_byte  = p_iic_bus_I2CMasterReadByte(p_iic_bus_I2C_NAK_DATA);
             }else{
-                r_byte  = p_iic_bus_I2CMasterWriteByte(p_iic_bus_I2C_ACK_DATA);
+                r_byte  = p_iic_bus_I2CMasterReadByte(p_iic_bus_I2C_ACK_DATA);
             }
             *data = r_byte;
             data++;
@@ -407,7 +410,14 @@ BME280_RETURN_FUNCTION_TYPE bme280_init(void)
     //Clear BME280 Variable
     memset(&bme280_cluster, 0x00, sizeof(struct bme280_t));
     
-	while (v_chip_id_read_count > 0){
+    if(bme280_chip_id != 0x00){
+        com_rslt = BME280_CHIP_ID_READ_SUCCESS;
+        goto BME280_INIT;
+    }
+    //I2C Device Open 
+    p_iic_bus_Start();
+
+    while (v_chip_id_read_count > 0){
 		/* read Chip Id */
 		com_rslt = bme280_bus_read_register(BME280_CHIP_ID_REG, 
                                            &v_data_u8,
@@ -422,11 +432,13 @@ BME280_RETURN_FUNCTION_TYPE bme280_init(void)
         CyDelay(BME280_REGISTER_READ_DELAY);
 	}
 	/*assign chip ID to the global structure*/
-    bme280_cluster.chip_id = v_data_u8;
+    bme280_chip_id = v_data_u8;
 	/*com_rslt status of chip ID read*/
 	com_rslt = (v_chip_id_read_count == BME280_INIT_VALUE) ?
     BME280_CHIP_ID_READ_FAIL : BME280_CHIP_ID_READ_SUCCESS;
 
+    
+BME280_INIT:
 	if (com_rslt == BME280_CHIP_ID_READ_SUCCESS) {
 		/* readout bme280 calibparam structure */
         com1_rslt = bme280_get_calib_param();
